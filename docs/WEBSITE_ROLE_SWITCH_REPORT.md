@@ -2,7 +2,9 @@
 
 - date: 2026-06-29
 - project: Josh Personal Brand
-- status: verified
+- status: deployed_and_verified
+- live_url: https://johnlearningsomesxit.github.io/josh-resume/
+- da_url: https://johnlearningsomesxit.github.io/josh-resume/?role=da
 
 ## Delivered
 
@@ -28,7 +30,7 @@ resume under a DA-oriented narrative.
 
 - AI PM default view: passed
 - DA button switch: passed
-- `?role=da` deep link: passed
+- `?role=da` deep link: passed on GitHub Pages
 - Dynamic title and role copy: passed
 - Hidden/visible role panels: passed
 - Desktop viewport 1280x720: passed
@@ -36,3 +38,5 @@ resume under a DA-oriented narrative.
 - Horizontal overflow: none
 - Resume and contact links: present
 - UTF-8 Traditional Chinese rendering: passed
+- Live browser console errors: none
+- GitHub main deployment commit: `6191124`
