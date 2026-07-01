@@ -47,6 +47,7 @@
                 <a href="#tech-stack">Skills</a>
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
+                <a href="portfolio/index.html">Portfolio</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
@@ -265,9 +266,72 @@
         <section id="projects" class="reveal">
             <h3><i data-lucide="layers"></i> Selected Projects</h3>
             <p class="section-description">
-                以下專案聚焦資料查詢、報表自動化、資料品質與安全檢索，呈現我如何把營運需求轉成可維護的資料工作流。
+                前三個是公開在 GitHub 上、可直接查看程式碼與報告的數據分析作品集（<a href="portfolio/index.html" style="color: var(--primary);">完整 Case Study →</a>）；其餘則聚焦資料查詢、報表自動化與安全檢索，呈現我如何把營運需求轉成可維護的資料工作流。
             </p>
             <div class="project-grid">
+                <div class="project-card reveal">
+                    <div>
+                        <span class="data-badge"><i data-lucide="shield-check"></i> Data Quality</span>
+                        <h4 style="color: var(--primary); margin-bottom: 1rem;">Data Quality Audit Toolkit</h4>
+                        <p><strong style="color: #ff6b6b;">Problem:</strong> 電商營運資料常有缺值、重複、格式錯誤與計算不一致，但團隊往往要等 dashboard 數字「怪怪的」才發現。</p>
+                        <p><strong style="color: #4dadf7;">Solution:</strong> 用 Python + SQL 對 5 張資料表跑 9 類資料品質檢核，計算 Completeness/Uniqueness/Validity/Consistency 四維度分數。</p>
+                        <p><strong style="color: #51cf66;">Outcome:</strong> 2,164 筆記錄、20 種問題類型、整體品質分數 97.3/100，並附上商業風格稽核報告與修復建議。</p>
+                    </div>
+                    <div>
+                        <div class="project-tags" style="margin-bottom: 1rem;">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="portfolio/data-quality-audit-toolkit.html"><i data-lucide="file-text"></i> Case Study</a>
+                            <a href="https://github.com/Josh404DR/data-quality-audit-toolkit" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div>
+                        <span class="data-badge"><i data-lucide="trending-up"></i> Market Intelligence</span>
+                        <h4 style="color: var(--primary); margin-bottom: 1rem;">E-commerce Market Intelligence Dashboard</h4>
+                        <p><strong style="color: #ff6b6b;">Problem:</strong> 電商團隊需要一致的視角追蹤 GMV、商品/品類表現、行銷活動增量成效與銷售異常。</p>
+                        <p><strong style="color: #4dadf7;">Solution:</strong> 用 Python/Pandas/SQL 建立月度、商品、品類、行銷活動與客戶區隔資料集，並用 z-score 標記異常。</p>
+                        <p><strong style="color: #51cf66;">Outcome:</strong> $1.5M GMV、7,061 筆完成訂單、AOV $213、141 個銷售異常標記，並找出值得行銷測試的客戶區隔。</p>
+                    </div>
+                    <div>
+                        <div class="project-tags" style="margin-bottom: 1rem;">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">BI Dashboard</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="portfolio/ecommerce-market-intelligence-dashboard.html"><i data-lucide="file-text"></i> Case Study</a>
+                            <a href="https://github.com/johnlearningsomesxit/ecommerce-market-intelligence-dashboard" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div>
+                        <span class="data-badge"><i data-lucide="workflow"></i> Operations Automation</span>
+                        <h4 style="color: var(--primary); margin-bottom: 1rem;">E-commerce Operations Automation Pipeline</h4>
+                        <p><strong style="color: #ff6b6b;">Problem:</strong> 每日零散的訂單、庫存、出貨來源檔案，人工整理容易延誤決策並讓資料錯誤悄悄污染報表。</p>
+                        <p><strong style="color: #4dadf7;">Solution:</strong> 用 Python/Pandas/SQL 建立驗證、KPI、警示與每日報告的自動化管線，並附上 Airflow 排程範例。</p>
+                        <p><strong style="color: #51cf66;">Outcome:</strong> 每日 GMV $6,384.63、履約率 96.1%、自動攔截 45 筆資料錯誤，產出可直接餵給 BI 的資料契約。</p>
+                    </div>
+                    <div>
+                        <div class="project-tags" style="margin-bottom: 1rem;">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Airflow</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="portfolio/ecommerce-operations-automation-pipeline.html"><i data-lucide="file-text"></i> Case Study</a>
+                            <a href="https://github.com/Josh404DR/ecommerce-operations-automation-pipeline" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="project-card reveal">
                     <div>
                         <h4 style="color: var(--primary); margin-bottom: 1rem;">Operational Data Quality Workflow</h4>
