@@ -3,8 +3,8 @@
 - date: 2026-06-29
 - project: Josh Personal Brand
 - status: deployed_and_verified
-- live_url: https://johnlearningsomesxit.github.io/josh-resume/
-- da_url: https://johnlearningsomesxit.github.io/josh-resume/?role=da
+- live_url: https://josh404dr.github.io/josh-resume/
+- da_url: https://josh404dr.github.io/josh-resume/?role=da
 
 ## Delivered
 
