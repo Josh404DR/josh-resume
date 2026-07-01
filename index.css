@@ -997,3 +997,8 @@ section h3::after {
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
+
+/* Problem/Solution/Outcome label colors (extracted from inline styles for maintainability) */
+.label-problem  { color: #ff6b6b; }
+.label-solution { color: #4dadf7; }
+.label-outcome  { color: #51cf66; }

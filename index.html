@@ -9,11 +9,13 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preconnect" href="https://assets.mixkit.co" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700;800&display=swap"
         rel="stylesheet">
 
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@1.23.0/dist/umd/lucide.min.js" defer></script>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -272,9 +274,9 @@
                 <div class="project-card reveal">
                     <div>
                         <h4 style="color: var(--primary); margin-bottom: 1rem;">AI Content Automation Platform</h4>
-                        <p><strong style="color: #ff6b6b;">Problem:</strong> 高流量電商內容流程需要大量圖片生成、文案處理、品質檢核與合規控管，人工流程容易慢、易中斷、難以擴大。</p>
-                        <p><strong style="color: #4dadf7;">Solution:</strong> 規劃 AI 內容生成管線、共享服務端點、Audit 規格、自動更新部署與錯誤隔離機制。</p>
-                        <p><strong style="color: #51cf66;">Outcome:</strong> 達成每小時 10,000+ 張圖像處理能力，降低非技術團隊採用 AI 工具的門檻，並強化品質與合規控管。</p>
+                        <p><strong class="label-problem">Problem:</strong> 高流量電商內容流程需要大量圖片生成、文案處理、品質檢核與合規控管，人工流程容易慢、易中斷、難以擴大。</p>
+                        <p><strong class="label-solution">Solution:</strong> 規劃 AI 內容生成管線、共享服務端點、Audit 規格、自動更新部署與錯誤隔離機制。</p>
+                        <p><strong class="label-outcome">Outcome:</strong> 達成每小時 10,000+ 張圖像處理能力，降低非技術團隊採用 AI 工具的門檻，並強化品質與合規控管。</p>
                     </div>
                     <div class="project-tags">
                         <span class="tag">AI Product</span>
@@ -286,9 +288,9 @@
                 <div class="project-card reveal">
                     <div>
                         <h4 style="color: var(--primary); margin-bottom: 1rem;">Data Automation & Reporting System</h4>
-                        <p><strong style="color: #ff6b6b;">Problem:</strong> 營運報表與資料交付高度依賴人工重複操作，容易造成延遲、版本混亂與資料錯誤。</p>
-                        <p><strong style="color: #4dadf7;">Solution:</strong> 使用 SQL、Airflow、Google Apps Script 與 Dashboard 工具建立自動化排程、資料校驗與視覺化報表。</p>
-                        <p><strong style="color: #51cf66;">Outcome:</strong> 降低 90% 手動工時、提升 50% 處理效率、降低 80% 資料錯誤率，讓跨部門決策更快取得可靠資料。</p>
+                        <p><strong class="label-problem">Problem:</strong> 營運報表與資料交付高度依賴人工重複操作，容易造成延遲、版本混亂與資料錯誤。</p>
+                        <p><strong class="label-solution">Solution:</strong> 使用 SQL、Airflow、Google Apps Script 與 Dashboard 工具建立自動化排程、資料校驗與視覺化報表。</p>
+                        <p><strong class="label-outcome">Outcome:</strong> 降低 90% 手動工時、提升 50% 處理效率、降低 80% 資料錯誤率，讓跨部門決策更快取得可靠資料。</p>
                     </div>
                     <div class="project-tags">
                         <span class="tag">SQL</span>
@@ -300,9 +302,9 @@
                 <div class="project-card reveal">
                     <div>
                         <h4 style="color: var(--primary); margin-bottom: 1rem;">AI Hub / OpenClaw Personal R&D Workspace</h4>
-                        <p><strong style="color: #ff6b6b;">Problem:</strong> 個人 AI 專案容易散落在聊天紀錄、文件、任務與實驗中，缺乏一致的記憶、交接與治理方式。</p>
-                        <p><strong style="color: #4dadf7;">Solution:</strong> 建立 AI Hub 作為個人研發工作區，整理 Agent OS 文件、任務台帳、記憶摘要、資源審查與自動化治理流程。</p>
-                        <p><strong style="color: #51cf66;">Outcome:</strong> 展示我對 AI 工作流設計、Agent 協作、長期記憶、文件治理與實務自動化系統的持續實作能力。</p>
+                        <p><strong class="label-problem">Problem:</strong> 個人 AI 專案容易散落在聊天紀錄、文件、任務與實驗中，缺乏一致的記憶、交接與治理方式。</p>
+                        <p><strong class="label-solution">Solution:</strong> 建立 AI Hub 作為個人研發工作區，整理 Agent OS 文件、任務台帳、記憶摘要、資源審查與自動化治理流程。</p>
+                        <p><strong class="label-outcome">Outcome:</strong> 展示我對 AI 工作流設計、Agent 協作、長期記憶、文件治理與實務自動化系統的持續實作能力。</p>
                     </div>
                     <div class="project-tags">
                         <span class="tag">Personal Project</span>
@@ -314,9 +316,9 @@
                 <div class="project-card reveal">
                     <div>
                         <h4 style="color: var(--primary); margin-bottom: 1rem;">Private SQL RAG Assistant</h4>
-                        <p><strong style="color: #ff6b6b;">Problem:</strong> 非技術使用者需要快速理解資料與 SQL 查詢邏輯，但直接存取資料庫存在安全與準確性風險。</p>
-                        <p><strong style="color: #4dadf7;">Solution:</strong> 設計私有 SQL RAG 助理概念，結合檢索、schema 約束與安全防護欄，協助查詢理解與資料分析流程。</p>
-                        <p><strong style="color: #51cf66;">Outcome:</strong> 用於探索安全的自助式資料分析介面，強調 controlled context、query safety 與內部生產力提升。</p>
+                        <p><strong class="label-problem">Problem:</strong> 非技術使用者需要快速理解資料與 SQL 查詢邏輯，但直接存取資料庫存在安全與準確性風險。</p>
+                        <p><strong class="label-solution">Solution:</strong> 設計私有 SQL RAG 助理概念，結合檢索、schema 約束與安全防護欄，協助查詢理解與資料分析流程。</p>
+                        <p><strong class="label-outcome">Outcome:</strong> 用於探索安全的自助式資料分析介面，強調 controlled context、query safety 與內部生產力提升。</p>
                     </div>
                     <div class="project-tags">
                         <span class="tag">RAG</span>
